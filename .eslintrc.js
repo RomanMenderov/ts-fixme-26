@@ -18,6 +18,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "no-shadow": "off",
     "no-param-reassign": "off",
     "no-else-return": ["error", { allowElseIf: true }],
     "import/prefer-default-export": "off",

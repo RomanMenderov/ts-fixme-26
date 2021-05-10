@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tsc --noEmit && jest",
+    "test": "tsc --noEmit",
     "lint": "prettier --check . && eslint . --ext .js,.ts ",
     "lint:fix": "prettier --write . && eslint . --fix --ext .js,.ts "
   },
